@@ -1,0 +1,116 @@
+/* Shared Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+
+/* Navbar Section Start */
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    align-items: center;
+}
+
+header .navbar .nav-logo h3 {
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header .navbar .nav-menu-bar {
+    display: flex;
+    align-items: center;
+}
+
+header .navbar .nav-menu-bar .menu-icon {
+    padding-left: 30px;
+}
+
+header .navbar .nav-menu-bar .menu-icon .fa-magnifying-glass {
+    margin-right: 30px;
+}
+
+header .navbar .nav-menu-bar .menu-icon i {
+    font-size: 1.2rem;
+}
+
+header .navbar .nav-menu-bar .menu-text ul {
+    display: flex;
+}
+
+header .navbar .nav-menu-bar .menu-text ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar .nav-menu-bar .menu-text ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* Banner Section Styling */
+
+header .banner {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .banner .banner-text h2 {
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 134.615% */
+}
+
+header .banner .banner-text p {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 16px;
+    width: 505px;
+}
+
+header .banner .banner-text .banner-btn {
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    border-radius: 41px;
+    background: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+    margin-top: 16px;
+}
+
+/* .banner .banner-img img {
+    background-image: url('../images/photos/Circle\ design.svg');
+} */
