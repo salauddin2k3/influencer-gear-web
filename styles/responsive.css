@@ -44,8 +44,66 @@
 
     
 
-
-
-
     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium Device */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    
+    /* Shared Styles */
+
+    .container {
+        width: 90%;
+        max-width: 768px;
+        border: 1px solid red;
+        
+    }
+
+    /* Header Styling */
+
+    /* Navbar Section Start */
+
+    .navbar {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .navbar .nav-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .nav-menu-bar {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .navbar .nav-menu-bar li {
+        padding:25px;
+    }
+    
+    .navbar .nav-menu-bar i {
+        padding: 25px;
+    }
+
+    /* Navbar Section End */
+
+
+
+
+
 }
