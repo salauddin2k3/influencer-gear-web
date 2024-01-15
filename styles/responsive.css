@@ -75,8 +75,22 @@
     }
 
     /* Banner Section End */
+    
+    /* Sponsored Section Start */
 
+    /* .sponsored .sponsored-logo img {
+        width: 10%;
+    } */
 
+    .sponsored .sponsored-logo {
+        text-align: center;
+        display: inline-block;
+        border: 1px solid red;
+    }
+
+    .sponsored .sponsored-logo img {
+        padding: 10px;
+    }
 
 
 
@@ -179,6 +193,16 @@
     }
 
     /* Banner Section End */
+
+    /* Sponsored Section Start */
+
+
+
+
+
+
+
+
 
 
 
