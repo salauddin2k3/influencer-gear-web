@@ -8,7 +8,7 @@
     .container {
         width: 90%;
         max-width: 576px;
-        margin-left: 0;
+        margin-left: 0 auto;
     }
 
     /* Header Styling */
@@ -19,6 +19,7 @@
         flex-direction: column;
         gap: 30px;
         margin-top: 40px;
+        margin-left: auto;
     }
 
     .navbar .nav-logo {
@@ -42,7 +43,47 @@
 
     /* Navbar Section End */
 
+    /* Banner Section Start */
+
+    .banner {
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 90px;
+        background-position: top;
+    }  
     
+    
+
+    .banner .banner-description h2 {
+        text-align: center;
+        font-size: 2.25rem;
+        line-height: 50px;
+    }
+
+    .banner .banner-description .banner-short-description {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner .banner-description button {
+        margin: 16px auto 0;
+    }
+
+    .banner .banner-img img {
+        margin-top: 50px;
+    }
+
+    /* Banner Section End */
+
+
+
+
+
+
+
+
+
 
     
 }
@@ -67,7 +108,6 @@
     .container {
         width: 90%;
         max-width: 768px;
-        border: 1px solid red;
         
     }
 
@@ -84,6 +124,10 @@
     .navbar .nav-logo {
         width: 100%;
         text-align: center;
+    }
+
+    .navbar .nav-logo h3 {
+        font-size: 2.7rem;
     }
 
     .navbar .nav-menu-bar {
@@ -103,6 +147,38 @@
     /* Navbar Section End */
 
 
+    /* Banner Section Start */
+
+    .banner {
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 80px;
+        background-position: top;
+    }  
+    
+    
+
+    .banner .banner-description h2 {
+        text-align: center;
+        font-size: 3rem;
+        line-height: normal;
+    }
+
+    .banner .banner-description .banner-short-description {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner .banner-description button {
+        margin: 36px auto 0;
+    }
+
+    .banner .banner-img {
+        width: 100%;
+    }
+
+    /* Banner Section End */
 
 
 
